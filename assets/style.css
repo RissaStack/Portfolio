@@ -1,0 +1,150 @@
+/* This is giving the entire webepage the same font. */
+* { 
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    margin: 0;
+    background-color: #0D1F2D;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0 24px;
+    background-color: #D5DCF9;
+    color: #0D1F2D;
+}
+
+header div {
+    /* width: 35%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header div h3 {
+    margin: 0 10px; 
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: #37FF8B;
+}
+
+#body {
+    flex-direction: column;
+    padding: 40px 5%;
+}
+
+#About {
+    color: #A7B0CA;
+}
+
+#work {
+    color:#A7B0CA;
+}
+
+#gallery {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#gallery div,
+#car-wash {
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-bottom: 24px;
+    width: 30%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#car-wash {
+    width: 50%;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#gallery div:hover {
+    border: 3px solid #37FF8B;
+}
+
+#car-wash {
+    background-image: url("car-wash.jpeg");
+    color:#0D1F2D;
+}
+
+#gallery #project-2 {
+    background-image: url("school.png");
+    color:#0D1F2D;
+}
+
+#gallery #project-3 {
+    background-image: url("recipe.jpeg");
+    color:#0D1F2D;
+}
+
+#gallery #project-4 {
+    background-image: url("pets.jpeg");
+    color:#0D1F2D;
+}
+
+#gallery #project-5 {
+    background-image: url("basketball.jpeg");
+    color:#0D1F2D;
+}
+
+#gallery #project-6 {
+    background-image: url("crafts.jpeg");
+    color:#0D1F2D;
+}
+
+#contact {
+    color:#A7B0CA;
+    /* justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 20%; */
+}
+.contact-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-link {
+    margin: 0 10px;
+}
+
+.contact-link a {
+    text-decoration: none;
+    color:#A7B0CA;
+}
+
+.about-wrap {
+    display: flex;
+}
+
+.about-wrap p {
+    margin: "0 auto";
+    padding: 50px;
+    /* line line-height: ; */
+}
