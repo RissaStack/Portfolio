@@ -9,4 +9,4 @@ I learned how to create cards with background images and how to place them using
 VS code
 
 ## Image
-![Image of application](/assets/portfoliopic.jpeg  "Portfolio")
+![Image of application](/assets/portfoliopic.jpeg.png  "Portfolio")
