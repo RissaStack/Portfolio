@@ -1,20 +1,616 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="./assets/sketchbook.png"/>
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="https://www.flaticon.com/free-icons/art"
+            title="art icons"
+        />
         <link rel="stylesheet" href="./assets/style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+            rel="stylesheet"
+        />
     </head>
 
     <body>
-        <header class="container"> <!--This container gives the flex attribute to all of the headers.-->
-            <h1>Larissa Stack</h1>
+        <!-- <header data-bs-theme="dark">
+            <div class="collapse text-bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-7 py-4">
+                            <h4>Larissa Stack</h4>
+                            <p class="text-body-secondary">
+                                Larissa Stack is a local Arizona web developer.
+                                She got her credentials from the UofA Full Stack
+                                WebDev coding bootcamp in 2023. She does mostly
+                                front end work using HTML, CSS, Javascript, and
+                                Bootstrap. Larissa has a background in teaching
+                                with a BA in elementary education from Northern
+                                Arizona University. She graduated from NAU in
+                                2019 and taught middle school computer tech at
+                                Mount Elden Middle School in Flagstaff, AZ.
+                                Larissa is passionate for learning and teaching
+                                others.
+                            </p>
+                        </div>
+                        <div class="col-sm-4 offset-md-1 py-4">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="text-white">About</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white">Work</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white">Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                        <image src="./assets/portfolio-picture.jpg" id="profile-pic"></image>
+                            
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="py-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">مثال الألبوم</h1>
+                        <p class="lead text-body-secondary"></p>
+                        <p>
+                            <a href="#" class="btn btn-primary my-2"
+                                >الدعوة الرئيسية للعمل</a
+                            >
+                            <a href="#" class="btn btn-secondary my-2"
+                                >عمل ثانوي</a
+                            >
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="album py-5 bg-body-tertiary">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg
+                                    class="bd-placeholder-img card-img-top"
+                                    width="100%"
+                                    height="225"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    role="img"
+                                    aria-label="Placeholder: صورة مصغرة"
+                                    preserveAspectRatio="xMidYMid slice"
+                                    focusable="false"
+                                >
+                                    <title>Placeholder</title>
+                                    <rect
+                                        width="100%"
+                                        height="100%"
+                                        fill="#55595c"
+                                    ></rect>
+                                    <text
+                                        x="50%"
+                                        y="50%"
+                                        fill="#eceeef"
+                                        dy=".3em"
+                                    >
+                                        صورة مصغرة
+                                    </text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        هذه بطاقة أوسع مع نص داعم أدناه كمقدمة
+                                        طبيعية لمحتوى إضافي. هذا المحتوى أطول
+                                        قليلاً.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                    >
+                                        <div class="btn-group">
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                عرض
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                تعديل
+                                            </button>
+                                        </div>
+                                        <small class="text-body-secondary"
+                                            >9 دقائق</small
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg
+                                    class="bd-placeholder-img card-img-top"
+                                    width="100%"
+                                    height="225"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    role="img"
+                                    aria-label="Placeholder: صورة مصغرة"
+                                    preserveAspectRatio="xMidYMid slice"
+                                    focusable="false"
+                                >
+                                    <title>Placeholder</title>
+                                    <rect
+                                        width="100%"
+                                        height="100%"
+                                        fill="#55595c"
+                                    ></rect>
+                                    <text
+                                        x="50%"
+                                        y="50%"
+                                        fill="#eceeef"
+                                        dy=".3em"
+                                    >
+                                        صورة مصغرة
+                                    </text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        هذه بطاقة أوسع مع نص داعم أدناه كمقدمة
+                                        طبيعية لمحتوى إضافي. هذا المحتوى أطول
+                                        قليلاً.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                    >
+                                        <div class="btn-group">
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                عرض
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                تعديل
+                                            </button>
+                                        </div>
+                                        <small class="text-body-secondary"
+                                            >9 دقائق</small
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg
+                                    class="bd-placeholder-img card-img-top"
+                                    width="100%"
+                                    height="225"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    role="img"
+                                    aria-label="Placeholder: صورة مصغرة"
+                                    preserveAspectRatio="xMidYMid slice"
+                                    focusable="false"
+                                >
+                                    <title>Placeholder</title>
+                                    <rect
+                                        width="100%"
+                                        height="100%"
+                                        fill="#55595c"
+                                    ></rect>
+                                    <text
+                                        x="50%"
+                                        y="50%"
+                                        fill="#eceeef"
+                                        dy=".3em"
+                                    >
+                                        صورة مصغرة
+                                    </text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        هذه بطاقة أوسع مع نص داعم أدناه كمقدمة
+                                        طبيعية لمحتوى إضافي. هذا المحتوى أطول
+                                        قليلاً.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                    >
+                                        <div class="btn-group">
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                عرض
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                تعديل
+                                            </button>
+                                        </div>
+                                        <small class="text-body-secondary"
+                                            >9 دقائق</small
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg
+                                    class="bd-placeholder-img card-img-top"
+                                    width="100%"
+                                    height="225"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    role="img"
+                                    aria-label="Placeholder: صورة مصغرة"
+                                    preserveAspectRatio="xMidYMid slice"
+                                    focusable="false"
+                                >
+                                    <title>Placeholder</title>
+                                    <rect
+                                        width="100%"
+                                        height="100%"
+                                        fill="#55595c"
+                                    ></rect>
+                                    <text
+                                        x="50%"
+                                        y="50%"
+                                        fill="#eceeef"
+                                        dy=".3em"
+                                    >
+                                        صورة مصغرة
+                                    </text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        هذه بطاقة أوسع مع نص داعم أدناه كمقدمة
+                                        طبيعية لمحتوى إضافي. هذا المحتوى أطول
+                                        قليلاً.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                    >
+                                        <div class="btn-group">
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                عرض
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                تعديل
+                                            </button>
+                                        </div>
+                                        <small class="text-body-secondary"
+                                            >9 دقائق</small
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg
+                                    class="bd-placeholder-img card-img-top"
+                                    width="100%"
+                                    height="225"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    role="img"
+                                    aria-label="Placeholder: صورة مصغرة"
+                                    preserveAspectRatio="xMidYMid slice"
+                                    focusable="false"
+                                >
+                                    <title>Placeholder</title>
+                                    <rect
+                                        width="100%"
+                                        height="100%"
+                                        fill="#55595c"
+                                    ></rect>
+                                    <text
+                                        x="50%"
+                                        y="50%"
+                                        fill="#eceeef"
+                                        dy=".3em"
+                                    >
+                                        صورة مصغرة
+                                    </text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        هذه بطاقة أوسع مع نص داعم أدناه كمقدمة
+                                        طبيعية لمحتوى إضافي. هذا المحتوى أطول
+                                        قليلاً.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                    >
+                                        <div class="btn-group">
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                عرض
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                تعديل
+                                            </button>
+                                        </div>
+                                        <small class="text-body-secondary"
+                                            >9 دقائق</small
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg
+                                    class="bd-placeholder-img card-img-top"
+                                    width="100%"
+                                    height="225"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    role="img"
+                                    aria-label="Placeholder: صورة مصغرة"
+                                    preserveAspectRatio="xMidYMid slice"
+                                    focusable="false"
+                                >
+                                    <title>Placeholder</title>
+                                    <rect
+                                        width="100%"
+                                        height="100%"
+                                        fill="#55595c"
+                                    ></rect>
+                                    <text
+                                        x="50%"
+                                        y="50%"
+                                        fill="#eceeef"
+                                        dy=".3em"
+                                    >
+                                        صورة مصغرة
+                                    </text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        هذه بطاقة أوسع مع نص داعم أدناه كمقدمة
+                                        طبيعية لمحتوى إضافي. هذا المحتوى أطول
+                                        قليلاً.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                    >
+                                        <div class="btn-group">
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                عرض
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                تعديل
+                                            </button>
+                                        </div>
+                                        <small class="text-body-secondary"
+                                            >9 دقائق</small
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg
+                                    class="bd-placeholder-img card-img-top"
+                                    width="100%"
+                                    height="225"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    role="img"
+                                    aria-label="Placeholder: صورة مصغرة"
+                                    preserveAspectRatio="xMidYMid slice"
+                                    focusable="false"
+                                >
+                                    <title>Placeholder</title>
+                                    <rect
+                                        width="100%"
+                                        height="100%"
+                                        fill="#55595c"
+                                    ></rect>
+                                    <text
+                                        x="50%"
+                                        y="50%"
+                                        fill="#eceeef"
+                                        dy=".3em"
+                                    >
+                                        صورة مصغرة
+                                    </text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        هذه بطاقة أوسع مع نص داعم أدناه كمقدمة
+                                        طبيعية لمحتوى إضافي. هذا المحتوى أطول
+                                        قليلاً.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                    >
+                                        <div class="btn-group">
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                عرض
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                تعديل
+                                            </button>
+                                        </div>
+                                        <small class="text-body-secondary"
+                                            >9 دقائق</small
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg
+                                    class="bd-placeholder-img card-img-top"
+                                    width="100%"
+                                    height="225"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    role="img"
+                                    aria-label="Placeholder: صورة مصغرة"
+                                    preserveAspectRatio="xMidYMid slice"
+                                    focusable="false"
+                                >
+                                    <title>Placeholder</title>
+                                    <rect
+                                        width="100%"
+                                        height="100%"
+                                        fill="#55595c"
+                                    ></rect>
+                                    <text
+                                        x="50%"
+                                        y="50%"
+                                        fill="#eceeef"
+                                        dy=".3em"
+                                    >
+                                        صورة مصغرة
+                                    </text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        هذه بطاقة أوسع مع نص داعم أدناه كمقدمة
+                                        طبيعية لمحتوى إضافي. هذا المحتوى أطول
+                                        قليلاً.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                    >
+                                        <div class="btn-group">
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                عرض
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                تعديل
+                                            </button>
+                                        </div>
+                                        <small class="text-body-secondary"
+                                            >9 دقائق</small
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg
+                                    class="bd-placeholder-img card-img-top"
+                                    width="100%"
+                                    height="225"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    role="img"
+                                    aria-label="Placeholder: صورة مصغرة"
+                                    preserveAspectRatio="xMidYMid slice"
+                                    focusable="false"
+                                >
+                                    <title>Placeholder</title>
+                                    <rect
+                                        width="100%"
+                                        height="100%"
+                                        fill="#55595c"
+                                    ></rect>
+                                    <text
+                                        x="50%"
+                                        y="50%"
+                                        fill="#eceeef"
+                                        dy=".3em"
+                                    >
+                                        صورة مصغرة
+                                    </text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        هذه بطاقة أوسع مع نص داعم أدناه كمقدمة
+                                        طبيعية لمحتوى إضافي. هذا المحتوى أطول
+                                        قليلاً.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center"
+                                    >
+                                        <div class="btn-group">
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                عرض
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                            >
+                                                تعديل
+                                            </button>
+                                        </div>
+                                        <small class="text-body-secondary"
+                                            >9 دقائق</small
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </main> 
+        <header class="container">
+        <!-- This container gives the flex attribute to all of the headers. -->
+        <h1>Larissa Stack</h1>
             <div class="container">
                 <h3>
                     <a href="#about">About</a>
@@ -33,25 +629,39 @@
 
         <div class="container" id="body">
             <div id="About">
-                <h2>
-                    About Me
-                </h2>
+                <h2>About Me</h2>
                 <div class="about-wrap">
-                    <img src="./assets/portfolio-picture.jpg" alt="Picture of Larissa" width="250" height="300" style="border:5px solid #D5DCF9">
+                    <img
+                        src="./assets/portfolio-picture.jpg"
+                        alt="Picture of Larissa"
+                        width="250"
+                        height="300"
+                        style="border: 5px solid #d5dcf9"
+                    />
                     <p>
-                        Larissa Stack is a local Arizona web developer. She got her credentials from the UofA Full Stack WebDev program in 2023. She does front end work using HTML, CSS, Javascript, and Github. Larissa has a background in teaching with a BA in elementary education from Northern Arizona University. She graduated from NAU in 2019 and taught middle school computer tech at Mount Elden Middle School in Flagstaff, AZ. Larissa is passionate for learning and teaching others.   
+                        Larissa Stack is a local Arizona web developer. She got
+                        her credentials from the UofA Full Stack WebDev program
+                        in 2023. She does front end work using HTML, CSS,
+                        Javascript, and Github. Larissa has a background in
+                        teaching with a BA in elementary education from Northern
+                        Arizona University. She graduated from NAU in 2019 and
+                        taught middle school computer tech at Mount Elden Middle
+                        School in Flagstaff, AZ. Larissa is passionate for
+                        learning and teaching others.
                     </p>
                 </div>
-               
             </div>
 
             <div id="work">
-                <h2>
-                    Work
-                </h2>
-                    <div id="car-wash">Car Wash</div>
+                <h2>Work</h2>
+                <a
+                    href="https://language-learning-app-pj2-c75719e3ef2c.herokuapp.com/signup/"
+                    ><div id="horiseon">Linguify</div></a
+                >a>
                 <div class="container" id="gallery">
-                    <div id="project-2">Project 2</div>
+                    <!-- <a href="https://rissastack.github.io/Lizard-Coin-Tracker/"> -->
+                        <div id="project-2">Project 2</div>
+                    <!-- </a> -->
                     <div id="project-3">Project 3</div>
                     <div id="project-4">Project 4</div>
                     <div id="project-5">Project 5</div>
@@ -61,9 +671,7 @@
             </div>
 
             <div class="container" id="contact">
-                <h2>
-                    Contact Me
-                </h2>
+                <h2>Contact Me</h2>
                 <div class="contact-container">
                     <h3 class="contact-link">
                         <a href="#">(520)255-5499</a>
@@ -76,6 +684,6 @@
                     </h3>
                 </div>
             </div>
-        </div>
+        </div> 
     </body>
 </html>

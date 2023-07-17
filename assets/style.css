@@ -1,11 +1,11 @@
 /* This is giving the entire webepage the same font. */
-* { 
+* {
     font-family: 'Merriweather', serif;
 }
 /* This is giving everything in the body characteristics. */
 body {
     margin: 0;
-    background-color: #0D1F2D;
+    background-color: #0d1f2d;
 }
 /* This container class is giving all of my headers and pictures the same display spacing using flex. */
 .container {
@@ -20,8 +20,8 @@ header {
     justify-content: space-between;
     border: 1px solid black;
     padding: 0 24px;
-    background-color: #D5DCF9;
-    color: #0D1F2D;
+    background-color: #d5dcf9;
+    color: #0d1f2d;
 }
 
 header div {
@@ -33,7 +33,7 @@ header div {
 }
 
 header div h3 {
-    margin: 0 10px; 
+    margin: 0 10px;
 }
 
 header a {
@@ -42,7 +42,7 @@ header a {
 }
 /* The hover allows the text in the header to turn green when the cursor is hovering over it. This lets the user know they can click on the link.  */
 header a:hover {
-    color: #37FF8B;
+    color: #37ff8b;
 }
 
 #body {
@@ -51,12 +51,12 @@ header a:hover {
 }
 
 #About {
-    color: #A7B0CA;
+    color: #a7b0ca;
     margin-bottom: 85px;
 }
 
 #work {
-    color:#A7B0CA;
+    color: #a7b0ca;
 }
 
 #gallery {
@@ -65,7 +65,7 @@ header a:hover {
 }
 /* The gallery div gives features to the cards for the projects on the page.  */
 #gallery div,
-#car-wash {
+#horiseon {
     border: 1px solid black;
     border-radius: 25px;
     margin-bottom: 24px;
@@ -76,61 +76,62 @@ header a:hover {
     text-align: center;
 }
 
-#car-wash {
+#horiseon {
     width: 50%;
     height: 400px;
     margin: 20px auto;
 }
 /* These two hovers give the cards the same feature as the links in the header to turn green.  */
-#car-wash:hover {
-    border: 3px solid #37FF8B;
+#horiseon:hover {
+    border: 3px solid #37ff8b;
 }
 
 #gallery div:hover {
-    border: 3px solid #37FF8B;
+    border: 3px solid #37ff8b;
 }
 
-#car-wash {
-    background-image: url("car-wash.jpeg");
-    color:#0D1F2D;
+#horiseon {
+    background-image: url('linguify.jpg');
+    color: white;
+    font-size: 40px;
 }
 
 #gallery #project-2 {
-    background-image: url("school.png");
-    color:#0D1F2D;
+    background-image: url('car-wash.jpeg');
+    color: #0d1f2d;
 }
 
 #gallery #project-3 {
-    background-image: url("recipe.jpeg");
-    color:#0D1F2D;
+    background-image: url('recipe.jpeg');
+    color: #0d1f2d;
 }
 
 #gallery #project-4 {
-    background-image: url("pets.jpeg");
-    color:#0D1F2D;
+    background-image: url('pets.jpeg');
+    color: #0d1f2d;
 }
 
 #gallery #project-5 {
-    background-image: url("basketball.jpeg");
-    color:#0D1F2D;
+    background-image: url('basketball.jpeg');
+    color: #0d1f2d;
 }
 
 #gallery #project-6 {
-    background-image: url("crafts.jpeg");
-    color:#0D1F2D;
+    background-image: url('crafts.jpeg');
+    color: #0d1f2d;
 }
 
 #gallery #project-7 {
-    background-image: url("stars.jpeg");
-    color:#0D1F2D
+    background-image: url('stars.jpeg');
+    color: #0d1f2d;
 }
 #contact {
-    color:#A7B0CA;
+    color: #a7b0ca;
     margin-top: 80px;
 }
 /* This contact container is giving flex properties to the footer so they can be spaced out and positioned to the right of the page. */
 .contact-container {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -143,7 +144,7 @@ header a:hover {
 
 .contact-link a {
     text-decoration: none;
-    color:#A7B0CA;
+    color: #a7b0ca;
 }
 
 .about-wrap {
@@ -151,7 +152,12 @@ header a:hover {
 }
 
 .about-wrap p {
-    margin: "0 auto";
+    margin: '0 auto';
     padding: 50px;
     line-height: 24px;
+}
+
+#profile-pic {
+    height: 10px;
+    width: 30px;
 }
